@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background: #001821;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 1.42;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: inherit;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+.btn {
+    display: inline-block;
+    background: #F5170E;
+    border-radius: 35px;
+    border: none;
+    padding: 17px 38px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #da0100;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1140px;
+}
+
+.header {
+    height: 120px;
+    position: relative;
+    margin-bottom: 98px;
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 29px;
+}
+
+.logo__img {
+    width: 98px;
+}
+
+.main-menu {
+    position: absolute;
+    left: 164px;
+    top: 37px;
+}
+
+.main-menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+
+.main-menu__item:last-child {
+    margin-right: 0;
+}
+
+.main-menu__link {
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.main-menu__item:hover .main-menu__link {
+    color: #DA0100;
+}
+
+.main-menu__item_active .main-menu__link {
+    color: #DA0100;
+}
+
+.contants {
+    position: absolute;
+    top: 22px;
+    right: 0;
+    font-style: normal;
+    text-align: right;
+}
+
+.contacts__phone {
+    text-decoration: none;
+    font-size: 26px;
+    display: inline-block;
+}
+
+.contacts__shedule {
+    font-size: 13px;
+}
+
+.contacts__shedule-title {
+    text-decoration: underline;
+}
+
+.hero__text-section {
+    width: 520px;
+}
+
+.hero__title {
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.hero__subtitle {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
