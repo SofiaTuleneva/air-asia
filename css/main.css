@@ -44,6 +44,7 @@ p {
 .home-wrapper {
     background: url("../images/bg/hero.jpg") center top no-repeat,
     url("../images/bg/bottom-pic.jpg") center bottom 265px no-repeat;
+    background-size: contain;
 }
 
 .btn {
