@@ -1,0 +1,19 @@
+@import "layout/fonts.css";
+@import "layout/normalize.css";
+@import "layout/base.css";
+
+/*home sections*/
+@import "blocks/tours.css";
+@import "blocks/news.css";
+@import "blocks/about.css";
+
+@import "blocks/header.css";
+@import "blocks/footer.css";
+@import "blocks/btn.css";
+@import "blocks/logo.css";
+@import "blocks/contacts.css";
+@import "blocks/main-menu.css";
+@import "blocks/hero.css";
+@import "blocks/section.css";
+@import "blocks/paginator.css";
+@import "blocks/socials.css";

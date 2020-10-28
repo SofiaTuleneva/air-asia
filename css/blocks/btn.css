@@ -1,0 +1,36 @@
+.btn {
+    display: inline-block;
+    background: #F5170E;
+    border-radius: 35px;
+    border: none;
+    padding: 17px 40px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #da0100;
+}
+
+.btn_color_white {
+    background: #ffffff;
+    color: #F5170E;
+    border: 1px solid #F5170E;
+}
+
+.btn_color_white:hover {
+    background: #F5170E;
+    color: #FFFFFF;
+}
+
+.btn_size_l {
+    padding: 17px 40px;
+}
+
+.btn_size_m {
+    padding: 15px 28px;
+}

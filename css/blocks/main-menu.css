@@ -1,0 +1,25 @@
+.main-menu {
+}
+
+.main-menu__list {
+}
+
+.main-menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+
+.main-menu__link {
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.main-menu__item .main-menu__link:hover {
+    color: #DA0100;
+}
+
+.main-menu__item_active .main-menu__link {
+    color: #DA0100;
+}

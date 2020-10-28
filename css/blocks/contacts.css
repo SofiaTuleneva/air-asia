@@ -1,0 +1,66 @@
+.contacts {
+    font-style: normal;
+    text-align: right;
+}
+
+.contacts_footer {
+    position: absolute;
+    top: 28px;
+}
+
+.contacts__shedule {
+    font-size: 13px;
+    position: relative;
+}
+
+.contacts__shedule-title {
+    cursor: pointer;
+    color: #98A4A8;
+    display: block;
+    text-decoration: underline;
+}
+
+.contacts__shedule-title:hover {
+    color: #ffffff;
+}
+
+.contacts__shedule-info {
+    background: rgba(237, 237, 237, 0.8);
+    border-radius: 5px;
+    color: #1E1F20;
+    padding: 14px 18px;
+    width: 153px;
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 0;
+    font-weight: 600;
+    text-align: left;
+    line-height: 1.6;
+    white-space: nowrap;
+}
+
+.contacts__shedule-info:before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    right: 43px;
+    border: 12px solid transparent;
+    border-bottom: 8px solid rgba(237, 237, 237, 0.8);
+    display: block;
+    width: 0;
+    height: 0;
+}
+
+.contacts__phone {
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 1;
+    display: block;
+}
+
+.contacts__phone-text {
+    display: block;
+    font-size: 11px;
+    color: #9A9A9A;
+}

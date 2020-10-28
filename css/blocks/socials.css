@@ -1,0 +1,48 @@
+.socials {
+    position: absolute;
+    top: 32px;
+    right: 264px;
+}
+
+.socials__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.socials__item:last-child {
+    margin-right: 0;
+}
+
+.socials__link {
+    display: block;
+    width: 36px;
+    height: 36px;
+    text-decoration: none;
+    background: center center no-repeat;
+}
+
+.socials__item_icon_tg .socials__link {
+    background-image: url("../../images/icons/socials/t.png");
+}
+.socials__item_icon_tg .socials__link:hover {
+    background-image: url("../../images/icons/socials/t2.png");
+}
+.socials__item_icon_vk .socials__link {
+    background-image: url("../../images/icons/socials/vk.png");
+}
+.socials__item_icon_vk .socials__link:hover {
+    background-image: url("../../images/icons/socials/vk2.png");
+}
+.socials__item_icon_fb .socials__link {
+    background-image: url("../../images/icons/socials/f.png");
+}
+.socials__item_icon_fb .socials__link:hover {
+    background-image: url("../../images/icons/socials/f2.png");
+}
+.socials__item_icon_ig .socials__link {
+    background-image: url("../../images/icons/socials/in.png");
+}
+.socials__item_icon_ig .socials__link:hover {
+    background-image: url("../../images/icons/socials/in2.png");
+}
