@@ -41,6 +41,11 @@ p {
     margin-top: 0;
 }
 
+.wrapper {
+    overflow: hidden;
+    min-width: 1170px;
+}
+
 .home-wrapper {
     background: url("../images/bg/hero.jpg") center top no-repeat,
     url("../images/bg/bottom-pic.jpg") center bottom 265px no-repeat;
