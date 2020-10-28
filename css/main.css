@@ -77,7 +77,8 @@ p {
 
 .container {
     margin: 0 auto;
-    width: 1140px;
+    width: 1170px;
+    padding: 0 15px;
 }
 
 .header {
