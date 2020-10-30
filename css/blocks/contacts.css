@@ -3,11 +3,6 @@
     text-align: right;
 }
 
-.contacts_footer {
-    position: absolute;
-    top: 28px;
-}
-
 .contacts__shedule {
     font-size: 13px;
     position: relative;
@@ -58,6 +53,7 @@
     font-size: 26px;
     line-height: 1;
     display: block;
+    min-width: 220px;
 }
 
 .contacts__phone-text {
