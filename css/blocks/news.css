@@ -3,29 +3,24 @@
 }
 
 .news__list {
-    margin: 0 -10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .news__item {
-    display: inline-block;
-    vertical-align: top;
-    padding: 0 10px;
-}
-
-.news__item-inner {
-    width: 557px;
+    flex: 1;
     height: 392px;
+    margin-right: 25px;
     border-radius: 5px;
     overflow: hidden;
     position: relative;
 }
 
-.news__img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.news__item:last-child {
+    margin-right: 0;
 }
+
+.news__img {}
 
 .news__content {
     position: absolute;
