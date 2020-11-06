@@ -20,7 +20,9 @@
     margin-right: 0;
 }
 
-.news__img {}
+.news__img {
+    max-width: none;
+}
 
 .news__content {
     position: absolute;

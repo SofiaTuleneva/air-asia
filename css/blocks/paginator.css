@@ -32,3 +32,22 @@
     background: #ffffff;
     color: #F5170E;
 }
+
+.paginator__link:hover {
+    background: #ffffff;
+    color: #F5170E;
+}
+
+.paginator_theme_light {
+    color: #000000;
+}
+
+.paginator_theme_light .paginator__item_active .paginator__link {
+    background: #F5170E;
+    color: #ffffff;
+}
+
+.paginator_theme_light .paginator__link:hover {
+    background: #F5170E;
+    color: #ffffff;
+}

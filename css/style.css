@@ -17,3 +17,11 @@
 @import "blocks/section.css";
 @import "blocks/paginator.css";
 @import "blocks/socials.css";
+@import "blocks/top-line.css";
+@import "blocks/page-title.css";
+@import "blocks/breadcrumps.css";
+@import "blocks/page-content.css";
+@import "blocks/service.css";
+@import "blocks/services.css";
+@import "blocks/inner-section.css";
+@import "blocks/partners.css";

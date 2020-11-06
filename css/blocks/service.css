@@ -1,0 +1,28 @@
+.service {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service__img {
+    width: 40%;
+    margin-right: 5%;
+    max-height: 333px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.service__content {
+    flex: 1;
+}
+
+.service__title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 28px;
+}
+
+.service__desc {
+    line-height: 1.7;
+    margin-bottom: 28px;
+}
