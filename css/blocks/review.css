@@ -1,0 +1,69 @@
+.review {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background: #F4F5F5;
+    color: #000000;
+    border-radius: 5px;
+}
+
+.review__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.review__userdata {
+    margin-left: 22px;
+}
+
+.review__user {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 11px;
+    text-decoration: none;
+}
+
+.review__user:hover {
+    text-decoration: underline;
+    color: #2E77A4;
+}
+
+.review__user:after {
+    content: url("../../images/icons/socials/vk-blue.png");
+    height: 29px;
+    margin-left: 8px;
+}
+
+.review__tags {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.review__tags-item {
+    margin-bottom: 5px;
+    margin-left: 3px;
+}
+
+.review__content {
+}
+
+.review__title {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.review__date {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.review__text {
+    color: #818181;
+    line-height: 1.7;
+    padding-bottom: 20px;
+}

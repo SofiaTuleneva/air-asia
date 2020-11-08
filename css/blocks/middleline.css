@@ -1,0 +1,19 @@
+.middleline {
+    background: url("../../images/decor/couple.png") no-repeat right 20% bottom,
+    url("../../images/bg/middleline.jpg") no-repeat center center;
+    color: #ffffff;
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.middleline__content {
+    max-width: 50%;
+}
+
+.middleline__title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 1.2;
+}
