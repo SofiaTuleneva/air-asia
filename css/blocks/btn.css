@@ -17,7 +17,7 @@
 }
 
 .btn_color_white {
-    background: #ffffff;
+    background: #FFFFFF;
     color: #F5170E;
     border: 1px solid #F5170E;
 }
@@ -25,6 +25,15 @@
 .btn_color_white:hover {
     background: #F5170E;
     color: #FFFFFF;
+}
+
+.btn_color_grey {
+    background: #8E8E8E;
+    color: #FFFFFF;
+}
+
+.btn_color_grey:hover {
+    background: #2B2B2B;
 }
 
 .btn_size_l {

@@ -2,7 +2,7 @@
 
 .form__row {
     display: flex;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 .form__input {
@@ -10,11 +10,17 @@
     margin-right: 30px;
     background: #FFFFFF;
     border-radius: 5px;
-    border: none;
     padding: 20px 30px;
     font-size: 18px;
     color: #1A1B1E;
     line-height: 1.2;
+    border: 1px solid transparent;
+}
+
+.form__input:focus,
+.form__input:active {
+    outline: none;
+    border: 1px solid #F5170E;
 }
 
 .form__input:last-child {
@@ -27,15 +33,30 @@
 
 .form__input_textarea {
     resize: none;
-    min-height: 235px;;
+    min-height: 232px;
+    padding: 25px 30px;
 }
 
 .form__controls {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .form__controls-title {
-    width: 40%;
+    width: 35%;
     font-size: 18px;
+}
+
+.form__buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form__btn {
+    margin-right: 15px;
+}
+
+.form__btn:last-child {
+    margin-right: 0;
 }

@@ -1,5 +1,5 @@
 .middleline {
-    background: url("../../images/decor/couple.png") no-repeat right 20% bottom,
+    background: url("../../images/decor/couple.png") no-repeat right 10% bottom,
     url("../../images/bg/middleline.jpg") no-repeat center center;
     color: #ffffff;
     min-height: 360px;
@@ -9,7 +9,7 @@
 }
 
 .middleline__content {
-    max-width: 50%;
+    max-width: 60%;
 }
 
 .middleline__title {
