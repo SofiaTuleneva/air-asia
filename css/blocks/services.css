@@ -3,5 +3,9 @@
 }
 
 .services__item {
-    padding: 25px 0;
+    margin-bottom: 50px;
+}
+
+.services__item:last-child {
+    margin-bottom: 0;
 }

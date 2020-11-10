@@ -6,5 +6,6 @@
 }
 
 .reviews__item {
+    display: inline-flex;
     margin-bottom: 20px;
 }

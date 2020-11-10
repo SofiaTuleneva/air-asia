@@ -17,4 +17,9 @@
     width: 255px;
     height: 130px;
     align-items: center;
+    filter: grayscale(100%);
+}
+
+.partners__link:hover {
+    filter: grayscale(0);
 }
