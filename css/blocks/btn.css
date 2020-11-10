@@ -2,7 +2,7 @@
     display: inline-block;
     background: #F5170E;
     border-radius: 35px;
-    border: none;
+    border: 1px solid transparent;
     padding: 18px 40px;
     color: #FFFFFF;
     font-weight: bold;
@@ -15,6 +15,7 @@
 
 .btn:hover {
     background: #da0100;
+    transition: ease-out 0.2s;
 }
 
 .btn_color_white {

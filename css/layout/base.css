@@ -85,3 +85,8 @@ button:active,
 button:focus {
     outline: none;
 }
+
+a:hover,
+button:hover {
+    transition: ease-out 0.2s;
+}
