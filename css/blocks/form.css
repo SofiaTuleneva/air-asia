@@ -15,12 +15,14 @@
     color: #1A1B1E;
     line-height: 1.2;
     border: 1px solid transparent;
+    transition: border-color ease-in 0.3s;
 }
+
 
 .form__input:focus,
 .form__input:active {
     outline: none;
-    border: 1px solid #F5170E;
+    border-color: #F5170E;
 }
 
 .form__input:last-child {
