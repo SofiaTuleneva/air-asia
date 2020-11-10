@@ -79,3 +79,9 @@ img {
     display: block;
     max-width: 100%;
 }
+
+button,
+button:active,
+button:focus {
+    outline: none;
+}

@@ -41,6 +41,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    margin-bottom: 25px;
 }
 
 .form__controls-title {
@@ -54,7 +55,7 @@
 }
 
 .form__btn {
-    margin-right: 15px;
+    margin-right: 20px;
 }
 
 .form__btn:last-child {

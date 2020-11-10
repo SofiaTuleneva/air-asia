@@ -10,6 +10,7 @@
     text-transform: uppercase;
     cursor: pointer;
     text-decoration: none;
+    text-align: center;
 }
 
 .btn:hover {
