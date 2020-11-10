@@ -88,5 +88,6 @@ button:focus {
 
 a:hover,
 button:hover {
-    transition: ease-out 0.2s;
+    transition: color ease-in 0.3s,
+    background-color ease-in 0.3s;
 }

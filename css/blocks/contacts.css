@@ -15,8 +15,12 @@
     text-decoration: underline;
 }
 
-.contacts__shedule-title:hover {
+.contacts__shedule:hover .contacts__shedule-title {
     color: #ffffff;
+}
+
+.contacts__shedule-info-wrapper {
+    padding: 8px 0;
 }
 
 .contacts__shedule-info {
@@ -26,14 +30,11 @@
     padding: 14px 18px;
     width: 153px;
     display: block;
-    position: absolute;
-    top: 25px;
-    right: 0;
     font-weight: 600;
     text-align: left;
     line-height: 1.6;
     white-space: nowrap;
-    z-index: 10;
+    position: relative;
 }
 
 .contacts__shedule-info:before {

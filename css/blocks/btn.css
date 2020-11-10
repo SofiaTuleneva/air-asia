@@ -15,7 +15,6 @@
 
 .btn:hover {
     background: #da0100;
-    transition: ease-out 0.2s;
 }
 
 .btn_color_white {
@@ -27,6 +26,7 @@
 .btn_color_white:hover {
     background: #F5170E;
     color: #FFFFFF;
+    border: 1px solid #F5170E;
 }
 
 .btn_color_grey {
