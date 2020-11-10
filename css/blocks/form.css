@@ -43,7 +43,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .form__controls-title {
@@ -54,6 +54,7 @@
 .form__buttons {
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 25px;
 }
 
 .form__btn {
