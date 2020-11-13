@@ -3,3 +3,7 @@
     padding: 95px 0;
     color: #000000;
 }
+
+.page-content__paginator {
+    padding-top: 20px;
+}

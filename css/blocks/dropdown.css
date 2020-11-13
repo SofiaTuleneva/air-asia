@@ -4,7 +4,7 @@
 }
 
 .dropdown__menu {
-    right: -99999px;
+    right: -9999px;
     opacity: 0;
     transition: opacity 0.3s;
     position: absolute;
