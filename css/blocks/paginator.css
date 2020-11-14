@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: baseline;
-    margin-bottom: 10px;
 }
 
 .paginator__display {
