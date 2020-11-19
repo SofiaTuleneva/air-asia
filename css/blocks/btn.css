@@ -17,6 +17,8 @@
     background: #da0100;
 }
 
+/*color*/
+
 .btn_color_white {
     background: #FFFFFF;
     color: #F5170E;
@@ -37,6 +39,8 @@
 .btn_color_grey:hover {
     background: #2B2B2B;
 }
+
+/*size*/
 
 .btn_size_l {
     padding: 18px 40px;

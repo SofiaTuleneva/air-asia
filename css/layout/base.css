@@ -80,12 +80,6 @@ img {
     max-width: 100%;
 }
 
-button,
-button:active,
-button:focus {
-    outline: none;
-}
-
 a:hover,
 button:hover {
     transition: ease-in 0.3s;

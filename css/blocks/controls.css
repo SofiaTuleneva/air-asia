@@ -16,9 +16,14 @@
 }
 
 .controls__checkbox {
-    display: none;
+    position: absolute;
+    left: -9999px;
 }
 
 .controls__checkbox:checked ~ .controls__tag {
     background: #B9EAE4;
+}
+
+.controls__checkbox:focus ~ .controls__tag {
+    outline: 1px solid #000;
 }
